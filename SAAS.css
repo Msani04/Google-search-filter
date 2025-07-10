@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  color: #202124;
+}
+
+.navbar {
+  display: flex;
+  padding: 8px 16px;
+  background: #fff;
+  height: 60px;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.logo {
+  margin-left: 16px;
+}
+
+.container {
+  max-width: 584px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.container h1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  color: #276B35;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  align-items: center;
+}
+
+.search-input-container {
+  position: relative;
+  flex-grow: 1;
+  max-width: 440px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: #9aa0a6;
+  width: 18px;
+  height: 18px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px 12px 44px;
+  font-size: 16px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.08);
+  height: 44px;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.filter-dropdown {
+  padding: 12px 16px;
+  font-size: 14px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  background-color: #fff;
+  color: #202124;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  padding-right: 32px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%235f6368'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+  height: 44px;
+}
+
+.search-btn {
+  padding: 0 24px;
+  font-size: 14px;
+  border-radius: 24px;
+  border: none;
+  background-color: #276B35;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  height: 44px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.search-btn:hover {
+  background-color: #1E5A2D;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
